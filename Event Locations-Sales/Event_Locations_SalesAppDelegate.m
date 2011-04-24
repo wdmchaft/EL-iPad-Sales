@@ -9,14 +9,14 @@
 #import "Event_Locations_SalesAppDelegate.h"
 
 @implementation Event_Locations_SalesAppDelegate
-
-
-@synthesize window=_window;
+@synthesize splitViewController;
+@synthesize window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    [self.window makeKeyAndVisible];
+    [window addSubview:splitViewController.view];
+    [window makeKeyAndVisible];
     return YES;
 }
 
@@ -61,7 +61,8 @@
 
 - (void)dealloc
 {
-    [_window release];
+    [splitViewController release];
+    [window release];
     [super dealloc];
 }
 

@@ -14,6 +14,24 @@
 		DDE448791364B353009A8A85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE448781364B353009A8A85 /* main.m */; };
 		DDE4487C1364B353009A8A85 /* Event_Locations_SalesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE4487B1364B353009A8A85 /* Event_Locations_SalesAppDelegate.m */; };
 		DDE4487F1364B353009A8A85 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDE4487D1364B353009A8A85 /* MainWindow.xib */; };
+		DDE4488D1364B785009A8A85 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE4488B1364B785009A8A85 /* RootViewController.m */; };
+		DDE4488E1364B785009A8A85 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDE4488C1364B785009A8A85 /* RootViewController.xib */; };
+		DDE4489A1364BF00009A8A85 /* BorosDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE448981364BF00009A8A85 /* BorosDetailViewController.m */; };
+		DDE4489B1364BF00009A8A85 /* BorosDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDE448991364BF00009A8A85 /* BorosDetailViewController.xib */; };
+		DDE448A11364C09E009A8A85 /* SubRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE4489F1364C09E009A8A85 /* SubRootViewController.m */; };
+		DDE448A21364C09E009A8A85 /* SubRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDE448A01364C09E009A8A85 /* SubRootViewController.xib */; };
+		DDE448B11364C54F009A8A85 /* SDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE448AF1364C54F009A8A85 /* SDetailViewController.m */; };
+		DDE448B21364C54F009A8A85 /* SDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDE448B01364C54F009A8A85 /* SDetailViewController.xib */; };
+		DDE448B71364C7BC009A8A85 /* NYSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE448B51364C7BC009A8A85 /* NYSDetailViewController.m */; };
+		DDE448B81364C7BC009A8A85 /* NYSDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDE448B61364C7BC009A8A85 /* NYSDetailViewController.xib */; };
+		DDE448BF1364EA4F009A8A85 /* LIDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE448BD1364EA4F009A8A85 /* LIDetailViewController.m */; };
+		DDE448C01364EA4F009A8A85 /* LIDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDE448BE1364EA4F009A8A85 /* LIDetailViewController.xib */; };
+		DDE448C41364EA5E009A8A85 /* HMDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE448C21364EA5E009A8A85 /* HMDetailViewController.m */; };
+		DDE448C51364EA5E009A8A85 /* HMDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDE448C31364EA5E009A8A85 /* HMDetailViewController.xib */; };
+		DDE448C91364EA6F009A8A85 /* NJDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE448C71364EA6F009A8A85 /* NJDetailViewController.m */; };
+		DDE448CA1364EA6F009A8A85 /* NJDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDE448C81364EA6F009A8A85 /* NJDetailViewController.xib */; };
+		DDE448CF1364ECDE009A8A85 /* ManDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE448CD1364ECDE009A8A85 /* ManDetailViewController.m */; };
+		DDE448D01364ECDE009A8A85 /* ManDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDE448CE1364ECDE009A8A85 /* ManDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +39,40 @@
 		DDE4486B1364B353009A8A85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DDE4486D1364B353009A8A85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DDE4486F1364B353009A8A85 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DDE448731364B353009A8A85 /* Event Locations-Sales-Info.plist */ = {isa = PBXFileReference; path = "Event Locations-Sales-Info.plist"; sourceTree = "<group>"; };
+		DDE448731364B353009A8A85 /* Event Locations-Sales-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Event Locations-Sales-Info.plist"; sourceTree = "<group>"; };
 		DDE448751364B353009A8A85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DDE448771364B353009A8A85 /* Event Locations-Sales-Prefix.pch */ = {isa = PBXFileReference; path = "Event Locations-Sales-Prefix.pch"; sourceTree = "<group>"; };
+		DDE448771364B353009A8A85 /* Event Locations-Sales-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Event Locations-Sales-Prefix.pch"; sourceTree = "<group>"; };
 		DDE448781364B353009A8A85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DDE4487A1364B353009A8A85 /* Event_Locations_SalesAppDelegate.h */ = {isa = PBXFileReference; path = Event_Locations_SalesAppDelegate.h; sourceTree = "<group>"; };
+		DDE4487A1364B353009A8A85 /* Event_Locations_SalesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Event_Locations_SalesAppDelegate.h; sourceTree = "<group>"; };
 		DDE4487B1364B353009A8A85 /* Event_Locations_SalesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Event_Locations_SalesAppDelegate.m; sourceTree = "<group>"; };
 		DDE4487E1364B353009A8A85 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		DDE4488A1364B785009A8A85 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		DDE4488B1364B785009A8A85 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		DDE4488C1364B785009A8A85 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		DDE448971364BF00009A8A85 /* BorosDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorosDetailViewController.h; sourceTree = "<group>"; };
+		DDE448981364BF00009A8A85 /* BorosDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorosDetailViewController.m; sourceTree = "<group>"; };
+		DDE448991364BF00009A8A85 /* BorosDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BorosDetailViewController.xib; sourceTree = "<group>"; };
+		DDE4489E1364C09E009A8A85 /* SubRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubRootViewController.h; sourceTree = "<group>"; };
+		DDE4489F1364C09E009A8A85 /* SubRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubRootViewController.m; sourceTree = "<group>"; };
+		DDE448A01364C09E009A8A85 /* SubRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubRootViewController.xib; sourceTree = "<group>"; };
+		DDE448AE1364C54F009A8A85 /* SDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDetailViewController.h; sourceTree = "<group>"; };
+		DDE448AF1364C54F009A8A85 /* SDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDetailViewController.m; sourceTree = "<group>"; };
+		DDE448B01364C54F009A8A85 /* SDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDetailViewController.xib; sourceTree = "<group>"; };
+		DDE448B41364C7BC009A8A85 /* NYSDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYSDetailViewController.h; sourceTree = "<group>"; };
+		DDE448B51364C7BC009A8A85 /* NYSDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYSDetailViewController.m; sourceTree = "<group>"; };
+		DDE448B61364C7BC009A8A85 /* NYSDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NYSDetailViewController.xib; sourceTree = "<group>"; };
+		DDE448BC1364EA4F009A8A85 /* LIDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIDetailViewController.h; sourceTree = "<group>"; };
+		DDE448BD1364EA4F009A8A85 /* LIDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIDetailViewController.m; sourceTree = "<group>"; };
+		DDE448BE1364EA4F009A8A85 /* LIDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LIDetailViewController.xib; sourceTree = "<group>"; };
+		DDE448C11364EA5E009A8A85 /* HMDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMDetailViewController.h; sourceTree = "<group>"; };
+		DDE448C21364EA5E009A8A85 /* HMDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMDetailViewController.m; sourceTree = "<group>"; };
+		DDE448C31364EA5E009A8A85 /* HMDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMDetailViewController.xib; sourceTree = "<group>"; };
+		DDE448C61364EA6F009A8A85 /* NJDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJDetailViewController.h; sourceTree = "<group>"; };
+		DDE448C71364EA6F009A8A85 /* NJDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJDetailViewController.m; sourceTree = "<group>"; };
+		DDE448C81364EA6F009A8A85 /* NJDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NJDetailViewController.xib; sourceTree = "<group>"; };
+		DDE448CC1364ECDE009A8A85 /* ManDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManDetailViewController.h; sourceTree = "<group>"; };
+		DDE448CD1364ECDE009A8A85 /* ManDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManDetailViewController.m; sourceTree = "<group>"; };
+		DDE448CE1364ECDE009A8A85 /* ManDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ManDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +119,17 @@
 		DDE448711364B353009A8A85 /* Event Locations-Sales */ = {
 			isa = PBXGroup;
 			children = (
+				DDE448CB1364ECB9009A8A85 /* ManDetailViewConteoller */,
+				DDE448BB1364EA35009A8A85 /* NJDetailViewController */,
+				DDE448BA1364EA20009A8A85 /* HMDetailViewController */,
+				DDE448B91364EA13009A8A85 /* LIDetailViewController */,
+				DDE448B31364C7AA009A8A85 /* NYS DetailViewController */,
 				DDE4487A1364B353009A8A85 /* Event_Locations_SalesAppDelegate.h */,
 				DDE4487B1364B353009A8A85 /* Event_Locations_SalesAppDelegate.m */,
 				DDE4487D1364B353009A8A85 /* MainWindow.xib */,
+				DDE448961364BEDB009A8A85 /* Boros DetailViewController */,
+				DDE448951364B8A4009A8A85 /* RootViewController */,
+				DDE448941364B881009A8A85 /* DetailViewController */,
 				DDE448721364B353009A8A85 /* Supporting Files */,
 			);
 			path = "Event Locations-Sales";
@@ -91,6 +144,97 @@
 				DDE448781364B353009A8A85 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDE448941364B881009A8A85 /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DDE448AE1364C54F009A8A85 /* SDetailViewController.h */,
+				DDE448AF1364C54F009A8A85 /* SDetailViewController.m */,
+				DDE448B01364C54F009A8A85 /* SDetailViewController.xib */,
+			);
+			name = DetailViewController;
+			sourceTree = "<group>";
+		};
+		DDE448951364B8A4009A8A85 /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DDE4489D1364C072009A8A85 /* SubRootViewController */,
+				DDE4488A1364B785009A8A85 /* RootViewController.h */,
+				DDE4488B1364B785009A8A85 /* RootViewController.m */,
+				DDE4488C1364B785009A8A85 /* RootViewController.xib */,
+			);
+			name = RootViewController;
+			sourceTree = "<group>";
+		};
+		DDE448961364BEDB009A8A85 /* Boros DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DDE448971364BF00009A8A85 /* BorosDetailViewController.h */,
+				DDE448981364BF00009A8A85 /* BorosDetailViewController.m */,
+				DDE448991364BF00009A8A85 /* BorosDetailViewController.xib */,
+			);
+			name = "Boros DetailViewController";
+			sourceTree = "<group>";
+		};
+		DDE4489D1364C072009A8A85 /* SubRootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DDE4489E1364C09E009A8A85 /* SubRootViewController.h */,
+				DDE4489F1364C09E009A8A85 /* SubRootViewController.m */,
+				DDE448A01364C09E009A8A85 /* SubRootViewController.xib */,
+			);
+			name = SubRootViewController;
+			sourceTree = "<group>";
+		};
+		DDE448B31364C7AA009A8A85 /* NYS DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DDE448B41364C7BC009A8A85 /* NYSDetailViewController.h */,
+				DDE448B51364C7BC009A8A85 /* NYSDetailViewController.m */,
+				DDE448B61364C7BC009A8A85 /* NYSDetailViewController.xib */,
+			);
+			name = "NYS DetailViewController";
+			sourceTree = "<group>";
+		};
+		DDE448B91364EA13009A8A85 /* LIDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DDE448BC1364EA4F009A8A85 /* LIDetailViewController.h */,
+				DDE448BD1364EA4F009A8A85 /* LIDetailViewController.m */,
+				DDE448BE1364EA4F009A8A85 /* LIDetailViewController.xib */,
+			);
+			name = LIDetailViewController;
+			sourceTree = "<group>";
+		};
+		DDE448BA1364EA20009A8A85 /* HMDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DDE448C11364EA5E009A8A85 /* HMDetailViewController.h */,
+				DDE448C21364EA5E009A8A85 /* HMDetailViewController.m */,
+				DDE448C31364EA5E009A8A85 /* HMDetailViewController.xib */,
+			);
+			name = HMDetailViewController;
+			sourceTree = "<group>";
+		};
+		DDE448BB1364EA35009A8A85 /* NJDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DDE448C61364EA6F009A8A85 /* NJDetailViewController.h */,
+				DDE448C71364EA6F009A8A85 /* NJDetailViewController.m */,
+				DDE448C81364EA6F009A8A85 /* NJDetailViewController.xib */,
+			);
+			name = NJDetailViewController;
+			sourceTree = "<group>";
+		};
+		DDE448CB1364ECB9009A8A85 /* ManDetailViewConteoller */ = {
+			isa = PBXGroup;
+			children = (
+				DDE448CC1364ECDE009A8A85 /* ManDetailViewController.h */,
+				DDE448CD1364ECDE009A8A85 /* ManDetailViewController.m */,
+				DDE448CE1364ECDE009A8A85 /* ManDetailViewController.xib */,
+			);
+			name = ManDetailViewConteoller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +286,15 @@
 			files = (
 				DDE448761364B353009A8A85 /* InfoPlist.strings in Resources */,
 				DDE4487F1364B353009A8A85 /* MainWindow.xib in Resources */,
+				DDE4488E1364B785009A8A85 /* RootViewController.xib in Resources */,
+				DDE4489B1364BF00009A8A85 /* BorosDetailViewController.xib in Resources */,
+				DDE448A21364C09E009A8A85 /* SubRootViewController.xib in Resources */,
+				DDE448B21364C54F009A8A85 /* SDetailViewController.xib in Resources */,
+				DDE448B81364C7BC009A8A85 /* NYSDetailViewController.xib in Resources */,
+				DDE448C01364EA4F009A8A85 /* LIDetailViewController.xib in Resources */,
+				DDE448C51364EA5E009A8A85 /* HMDetailViewController.xib in Resources */,
+				DDE448CA1364EA6F009A8A85 /* NJDetailViewController.xib in Resources */,
+				DDE448D01364ECDE009A8A85 /* ManDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +307,15 @@
 			files = (
 				DDE448791364B353009A8A85 /* main.m in Sources */,
 				DDE4487C1364B353009A8A85 /* Event_Locations_SalesAppDelegate.m in Sources */,
+				DDE4488D1364B785009A8A85 /* RootViewController.m in Sources */,
+				DDE4489A1364BF00009A8A85 /* BorosDetailViewController.m in Sources */,
+				DDE448A11364C09E009A8A85 /* SubRootViewController.m in Sources */,
+				DDE448B11364C54F009A8A85 /* SDetailViewController.m in Sources */,
+				DDE448B71364C7BC009A8A85 /* NYSDetailViewController.m in Sources */,
+				DDE448BF1364EA4F009A8A85 /* LIDetailViewController.m in Sources */,
+				DDE448C41364EA5E009A8A85 /* HMDetailViewController.m in Sources */,
+				DDE448C91364EA6F009A8A85 /* NJDetailViewController.m in Sources */,
+				DDE448CF1364ECDE009A8A85 /* ManDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
