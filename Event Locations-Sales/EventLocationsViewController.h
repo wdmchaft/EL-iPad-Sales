@@ -1,8 +1,8 @@
 //
-//  NYSDetailViewController.h
+//  EventLocationsViewController.h
 //  Event Locations-Sales
 //
-//  Created by Ujwal Trivedi on 4/24/11.
+//  Created by Ujwal Trivedi on 5/19/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
@@ -11,9 +11,7 @@
 #import <MessageUI/MFMailComposeViewController.h>
 #import "SubRootViewController.h"
 
-
-@interface NYSDetailViewController : UIViewController <SubstitutableDetailViewController, UIWebViewDelegate, MFMailComposeViewControllerDelegate> {
-    
+@interface EventLocationsViewController : UIViewController <SubstitutableDetailViewController, UIWebViewDelegate,MFMailComposeViewControllerDelegate>{
     UIWebView *rankView;
     UIBarButtonItem *backButton;
     UIBarButtonItem *forwardButton;
@@ -31,5 +29,5 @@
 
 -(IBAction) stopClicked: (id) sender;
 -(void) sendContactEmail;
--(void)loadWebRequest:(BOOL) currentMonth;
+ 
 @end

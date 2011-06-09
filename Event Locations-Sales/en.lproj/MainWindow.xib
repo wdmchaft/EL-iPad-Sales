@@ -64,7 +64,7 @@
 			<object class="IBUICustomObject" id="250404236">
 				<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 			</object>
-			<object class="IBUISplitViewController" id="981496185">
+			<object class="IBUISplitViewController" id="988197782">
 				<reference key="IBUIToolbarItems" ref="0"/>
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics">
 					<int key="IBUIStatusBarStyle">2</int>
@@ -75,8 +75,8 @@
 				</object>
 				<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 				<bool key="IBUIHorizontal">YES</bool>
-				<object class="IBUINavigationController" key="IBUIMasterViewController" id="994488891">
-					<reference key="IBUIParentViewController" ref="981496185"/>
+				<object class="IBUINavigationController" key="IBUIMasterViewController" id="774418672">
+					<reference key="IBUIParentViewController" ref="988197782"/>
 					<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics">
 						<int key="IBUIStatusBarStyle">2</int>
 					</object>
@@ -86,7 +86,7 @@
 					</object>
 					<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 					<bool key="IBUIHorizontal">NO</bool>
-					<object class="IBUINavigationBar" key="IBUINavigationBar" id="730753227">
+					<object class="IBUINavigationBar" key="IBUINavigationBar" id="612108138">
 						<nil key="NSNextResponder"/>
 						<int key="NSvFlags">256</int>
 						<string key="NSFrameSize">{0, 0}</string>
@@ -96,13 +96,13 @@
 					</object>
 					<object class="NSMutableArray" key="IBUIViewControllers">
 						<bool key="EncodedWithXMLCoder">YES</bool>
-						<object class="IBUITableViewController" id="63793526">
-							<object class="IBUINavigationItem" key="IBUINavigationItem" id="588323373">
+						<object class="IBUITableViewController" id="664407113">
+							<object class="IBUINavigationItem" key="IBUINavigationItem" id="829489767">
 								<reference key="IBUINavigationBar"/>
-								<string key="IBUITitle">Root View Controller</string>
+								<string key="IBUITitle">EventLocations.us</string>
 								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 							</object>
-							<reference key="IBUIParentViewController" ref="994488891"/>
+							<reference key="IBUIParentViewController" ref="774418672"/>
 							<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics">
 								<int key="IBUIStatusBarStyle">2</int>
 							</object>
@@ -116,8 +116,8 @@
 						</object>
 					</object>
 				</object>
-				<object class="IBUINavigationController" key="IBUIDetailViewController" id="962238333">
-					<reference key="IBUIParentViewController" ref="981496185"/>
+				<object class="IBUINavigationController" key="IBUIDetailViewController" id="7788749">
+					<reference key="IBUIParentViewController" ref="988197782"/>
 					<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics">
 						<int key="IBUIStatusBarStyle">2</int>
 					</object>
@@ -127,7 +127,7 @@
 					</object>
 					<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 					<bool key="IBUIHorizontal">NO</bool>
-					<object class="IBUINavigationBar" key="IBUINavigationBar" id="948418548">
+					<object class="IBUINavigationBar" key="IBUINavigationBar" id="764423911">
 						<nil key="NSNextResponder"/>
 						<int key="NSvFlags">256</int>
 						<string key="NSFrameSize">{0, 0}</string>
@@ -137,13 +137,13 @@
 					</object>
 					<object class="NSMutableArray" key="IBUIViewControllers">
 						<bool key="EncodedWithXMLCoder">YES</bool>
-						<object class="IBUIViewController" id="859895053">
-							<object class="IBUINavigationItem" key="IBUINavigationItem" id="804382130">
+						<object class="IBUIViewController" id="642209864">
+							<object class="IBUINavigationItem" key="IBUINavigationItem" id="410386664">
 								<reference key="IBUINavigationBar"/>
-								<string key="IBUITitle">Root View Controller</string>
+								<string key="IBUITitle"/>
 								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 							</object>
-							<reference key="IBUIParentViewController" ref="962238333"/>
+							<reference key="IBUIParentViewController" ref="7788749"/>
 							<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
 								<int key="IBUIInterfaceOrientation">1</int>
 								<int key="interfaceOrientation">1</int>
@@ -161,8 +161,8 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">delegate</string>
-						<reference key="source" ref="981496185"/>
-						<reference key="destination" ref="63793526"/>
+						<reference key="source" ref="988197782"/>
+						<reference key="destination" ref="664407113"/>
 					</object>
 					<int key="connectionID">25</int>
 				</object>
@@ -178,7 +178,7 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">splitViewController</string>
 						<reference key="source" ref="250404236"/>
-						<reference key="destination" ref="981496185"/>
+						<reference key="destination" ref="988197782"/>
 					</object>
 					<int key="connectionID">27</int>
 				</object>
@@ -193,8 +193,8 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">splitViewController</string>
-						<reference key="source" ref="63793526"/>
-						<reference key="destination" ref="981496185"/>
+						<reference key="source" ref="664407113"/>
+						<reference key="destination" ref="988197782"/>
 					</object>
 					<int key="connectionID">50</int>
 				</object>
@@ -232,74 +232,74 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">9</int>
-						<reference key="object" ref="981496185"/>
+						<reference key="object" ref="988197782"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="994488891"/>
-							<reference ref="962238333"/>
+							<reference ref="774418672"/>
+							<reference ref="7788749"/>
 						</object>
 						<reference key="parent" ref="0"/>
 						<string key="objectName">Split View Controller</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">10</int>
-						<reference key="object" ref="994488891"/>
+						<reference key="object" ref="774418672"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="730753227"/>
-							<reference ref="63793526"/>
+							<reference ref="612108138"/>
+							<reference ref="664407113"/>
 						</object>
-						<reference key="parent" ref="981496185"/>
+						<reference key="parent" ref="988197782"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">12</int>
-						<reference key="object" ref="730753227"/>
-						<reference key="parent" ref="994488891"/>
+						<reference key="object" ref="612108138"/>
+						<reference key="parent" ref="774418672"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">13</int>
-						<reference key="object" ref="63793526"/>
+						<reference key="object" ref="664407113"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="588323373"/>
+							<reference ref="829489767"/>
 						</object>
-						<reference key="parent" ref="994488891"/>
+						<reference key="parent" ref="774418672"/>
 						<string key="objectName">Root View Controller - Root View Controller</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">14</int>
-						<reference key="object" ref="588323373"/>
-						<reference key="parent" ref="63793526"/>
+						<reference key="object" ref="829489767"/>
+						<reference key="parent" ref="664407113"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">42</int>
-						<reference key="object" ref="962238333"/>
+						<reference key="object" ref="7788749"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="948418548"/>
-							<reference ref="859895053"/>
+							<reference ref="764423911"/>
+							<reference ref="642209864"/>
 						</object>
-						<reference key="parent" ref="981496185"/>
+						<reference key="parent" ref="988197782"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">43</int>
-						<reference key="object" ref="948418548"/>
-						<reference key="parent" ref="962238333"/>
+						<reference key="object" ref="764423911"/>
+						<reference key="parent" ref="7788749"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">44</int>
-						<reference key="object" ref="859895053"/>
+						<reference key="object" ref="642209864"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="804382130"/>
+							<reference ref="410386664"/>
 						</object>
-						<reference key="parent" ref="962238333"/>
+						<reference key="parent" ref="7788749"/>
 						<string key="objectName">Detail View Controller - Root View Controller</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">45</int>
-						<reference key="object" ref="804382130"/>
-						<reference key="parent" ref="859895053"/>
+						<reference key="object" ref="410386664"/>
+						<reference key="parent" ref="642209864"/>
 					</object>
 				</object>
 			</object>

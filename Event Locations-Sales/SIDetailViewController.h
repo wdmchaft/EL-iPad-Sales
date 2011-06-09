@@ -1,18 +1,16 @@
 //
-//  NYSDetailViewController.h
+//  SIDetailViewController.h
 //  Event Locations-Sales
 //
-//  Created by Ujwal Trivedi on 4/24/11.
+//  Created by Ujwal Trivedi on 5/1/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import <MessageUI/MessageUI.h>
-#import <MessageUI/MFMailComposeViewController.h>
 #import "SubRootViewController.h"
 
 
-@interface NYSDetailViewController : UIViewController <SubstitutableDetailViewController, UIWebViewDelegate, MFMailComposeViewControllerDelegate> {
+@interface SIDetailViewController : UIViewController <SubstitutableDetailViewController, UIWebViewDelegate> {
     
     UIWebView *rankView;
     UIBarButtonItem *backButton;
@@ -30,6 +28,6 @@
 @property(nonatomic, retain) IBOutlet UIActivityIndicatorView *activityIndicator;
 
 -(IBAction) stopClicked: (id) sender;
--(void) sendContactEmail;
--(void)loadWebRequest:(BOOL) currentMonth;
+
+
 @end

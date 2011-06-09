@@ -1,8 +1,8 @@
 //
-//  NYSDetailViewController.h
+//  QueensDetailViewController.h
 //  Event Locations-Sales
 //
-//  Created by Ujwal Trivedi on 4/24/11.
+//  Created by Ujwal Trivedi on 5/1/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
@@ -12,7 +12,7 @@
 #import "SubRootViewController.h"
 
 
-@interface NYSDetailViewController : UIViewController <SubstitutableDetailViewController, UIWebViewDelegate, MFMailComposeViewControllerDelegate> {
+@interface QueensDetailViewController : UIViewController <SubstitutableDetailViewController, UIWebViewDelegate, MFMailComposeViewControllerDelegate> {
     
     UIWebView *rankView;
     UIBarButtonItem *backButton;

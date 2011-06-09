@@ -1,16 +1,16 @@
 //
-//  NJDetailViewController.m
+//  QueensDetailViewController.m
 //  Event Locations-Sales
 //
-//  Created by Ujwal Trivedi on 4/24/11.
+//  Created by Ujwal Trivedi on 5/1/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "NJDetailViewController.h"
+#import "QueensDetailViewController.h"
 #import "Functions.h"
 
 
-@implementation NJDetailViewController
+@implementation QueensDetailViewController
 @synthesize rankView;
 @synthesize backButton;
 @synthesize forwardButton;
@@ -27,12 +27,19 @@
     return self;
 }
 
+- (void)didReceiveMemoryWarning
+{
+    // Releases the view if it doesn't have a superview.
+    [super didReceiveMemoryWarning];
+    // Release any cached data, images, etc that aren't in use.
+}
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    
-    [self loadWebRequest:true];
+   [self loadWebRequest:true]; 
 }
 
 
@@ -88,7 +95,7 @@
     
     MFMailComposeViewController *picker = [[MFMailComposeViewController alloc] init];
 	picker.mailComposeDelegate = self;	
-    [picker setSubject:[NSString stringWithFormat:@"NJ Site Ranked #1"]];
+    [picker setSubject:[NSString stringWithFormat:@"Boros Site Ranked #1"]];
     [picker setMessageBody:messageBody isHTML:YES];
     
 	[self presentModalViewController:picker animated:YES];
@@ -99,9 +106,9 @@
     [self dismissModalViewControllerAnimated:YES];
 }
 
-
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
+    // Return YES for supported orientations
 	return YES;
 }
 
@@ -112,25 +119,12 @@
 - (void)invalidateRootPopoverButtonItem:(UIBarButtonItem *)barButtonItem {
 }
 
-
-#pragma mark - View lifecycle
-
-- (void)didReceiveMemoryWarning
-{
-    // Releases the view if it doesn't have a superview.
-    [super didReceiveMemoryWarning];
-    
-    // Release any cached data, images, etc that aren't in use.
-}
-
 - (void)viewDidUnload
 {
     [super viewDidUnload];
-    rankView = nil;
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }
-
 
 - (void)dealloc
 {
@@ -141,7 +135,6 @@
     [refreshButton release];
     [stopButton release];
     [activityIndicator release];
-    
 }
 
 

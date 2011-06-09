@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>boros</key>
+	<string>boros</string>
+	<key>bridesemail</key>
+	<string>brides_email</string>
+	<key>googleranking</key>
+	<string>google_ranking</string>
+	<key>iphonepr</key>
+	<string>iphone_pr</string>
+	<key>longisland</key>
+	<string>longisland</string>
+	<key>manhattan</key>
+	<string>manhattan</string>
+	<key>mediakit</key>
+	<string>media_kit</string>
+	<key>newjersey</key>
+	<string>newjersey</string>
+	<key>nys</key>
+	<string>nys</string>
+	<key>nytimesreview</key>
+	<string>nytimes_review</string>
+	<key>manhattancorp</key>
+	<string>manhattan_corp</string>
+</dict>
+</plist>

@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD4CB585137F1E530016131E /* EventLocations-Cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD4CB584137F1E530016131E /* EventLocations-Cover.jpg */; };
+		DD4CB58B13808EE10016131E /* brides_email.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD4CB58713808EE10016131E /* brides_email.pdf */; };
+		DD4CB58C13808EE10016131E /* google_ranking.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD4CB58813808EE10016131E /* google_ranking.pdf */; };
+		DD4CB58D13808EE10016131E /* media_kit.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD4CB58913808EE10016131E /* media_kit.pdf */; };
+		DD4CB58E13808EE10016131E /* nytimes_review.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DD4CB58A13808EE10016131E /* nytimes_review.pdf */; };
+		DD78D4321385F95B0028ADC2 /* EventLocationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD78D4301385F95B0028ADC2 /* EventLocationsViewController.m */; };
+		DD78D4331385F95B0028ADC2 /* EventLocationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD78D4311385F95B0028ADC2 /* EventLocationsViewController.xib */; };
+		DDBC1A19138613D00043FB11 /* boros.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DDBC1A15138613D00043FB11 /* boros.pdf */; };
+		DDBC1A1A138613D00043FB11 /* longisland.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DDBC1A16138613D00043FB11 /* longisland.pdf */; };
+		DDBC1A1B138613D00043FB11 /* newjersey.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DDBC1A17138613D00043FB11 /* newjersey.pdf */; };
+		DDBC1A1C138613D00043FB11 /* nys.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DDBC1A18138613D00043FB11 /* nys.pdf */; };
+		DDBC1A2713882EDC0043FB11 /* manhattan.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DDBC1A2613882EDC0043FB11 /* manhattan.pdf */; };
+		DDBC1A3813884CAE0043FB11 /* Icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDBC1A3713884CAE0043FB11 /* Icon.jpg */; };
+		DDC427221375D1440036F196 /* FileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC427201375D1440036F196 /* FileViewController.m */; };
+		DDC427231375D1440036F196 /* FileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDC427211375D1440036F196 /* FileViewController.xib */; };
+		DDC427261375D4380036F196 /* FileList.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDC427251375D4380036F196 /* FileList.plist */; };
+		DDC42747137700470036F196 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC42746137700470036F196 /* MessageUI.framework */; };
+		DDC4274F137745200036F196 /* manhattan_corp.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DDC4274E137745200036F196 /* manhattan_corp.pdf */; };
 		DDE4486C1364B353009A8A85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE4486B1364B353009A8A85 /* UIKit.framework */; };
 		DDE4486E1364B353009A8A85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE4486D1364B353009A8A85 /* Foundation.framework */; };
 		DDE448701364B353009A8A85 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE4486F1364B353009A8A85 /* CoreGraphics.framework */; };
@@ -32,9 +50,41 @@
 		DDE448CA1364EA6F009A8A85 /* NJDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDE448C81364EA6F009A8A85 /* NJDetailViewController.xib */; };
 		DDE448CF1364ECDE009A8A85 /* ManDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE448CD1364ECDE009A8A85 /* ManDetailViewController.m */; };
 		DDE448D01364ECDE009A8A85 /* ManDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDE448CE1364ECDE009A8A85 /* ManDetailViewController.xib */; };
+		DDE448E01367A67F009A8A85 /* Functions.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE448DF1367A67F009A8A85 /* Functions.m */; };
+		DDE4490C136E5BA5009A8A85 /* iphone_pr.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DDE448FD136E5BA5009A8A85 /* iphone_pr.pdf */; };
+		DDE44922136E5CE4009A8A85 /* BronxDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE44920136E5CE4009A8A85 /* BronxDetailViewController.m */; };
+		DDE44923136E5CE4009A8A85 /* BronxDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDE44921136E5CE4009A8A85 /* BronxDetailViewController.xib */; };
+		DDE44927136E5CF4009A8A85 /* BrooklynDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE44925136E5CF4009A8A85 /* BrooklynDetailViewController.m */; };
+		DDE44928136E5CF4009A8A85 /* BrooklynDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDE44926136E5CF4009A8A85 /* BrooklynDetailViewController.xib */; };
+		DDE4492C136E5D04009A8A85 /* SIDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE4492A136E5D04009A8A85 /* SIDetailViewController.m */; };
+		DDE4492D136E5D04009A8A85 /* SIDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDE4492B136E5D04009A8A85 /* SIDetailViewController.xib */; };
+		DDE44931136E5D11009A8A85 /* QueensDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE4492F136E5D11009A8A85 /* QueensDetailViewController.m */; };
+		DDE44932136E5D11009A8A85 /* QueensDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDE44930136E5D11009A8A85 /* QueensDetailViewController.xib */; };
+		DDE44937136F9F6B009A8A85 /* BorosNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE44935136F9F68009A8A85 /* BorosNavigationViewController.m */; };
+		DDE44938136F9F6B009A8A85 /* BorosNavigationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDE44936136F9F69009A8A85 /* BorosNavigationViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD4CB584137F1E530016131E /* EventLocations-Cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "EventLocations-Cover.jpg"; sourceTree = "<group>"; };
+		DD4CB58713808EE10016131E /* brides_email.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = brides_email.pdf; sourceTree = "<group>"; };
+		DD4CB58813808EE10016131E /* google_ranking.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = google_ranking.pdf; sourceTree = "<group>"; };
+		DD4CB58913808EE10016131E /* media_kit.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = media_kit.pdf; sourceTree = "<group>"; };
+		DD4CB58A13808EE10016131E /* nytimes_review.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = nytimes_review.pdf; sourceTree = "<group>"; };
+		DD78D42F1385F95B0028ADC2 /* EventLocationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventLocationsViewController.h; sourceTree = "<group>"; };
+		DD78D4301385F95B0028ADC2 /* EventLocationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventLocationsViewController.m; sourceTree = "<group>"; };
+		DD78D4311385F95B0028ADC2 /* EventLocationsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventLocationsViewController.xib; sourceTree = "<group>"; };
+		DDBC1A15138613D00043FB11 /* boros.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = boros.pdf; sourceTree = "<group>"; };
+		DDBC1A16138613D00043FB11 /* longisland.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = longisland.pdf; sourceTree = "<group>"; };
+		DDBC1A17138613D00043FB11 /* newjersey.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = newjersey.pdf; sourceTree = "<group>"; };
+		DDBC1A18138613D00043FB11 /* nys.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = nys.pdf; sourceTree = "<group>"; };
+		DDBC1A2613882EDC0043FB11 /* manhattan.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = manhattan.pdf; sourceTree = "<group>"; };
+		DDBC1A3713884CAE0043FB11 /* Icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Icon.jpg; sourceTree = "<group>"; };
+		DDC4271F1375D1440036F196 /* FileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileViewController.h; sourceTree = "<group>"; };
+		DDC427201375D1440036F196 /* FileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileViewController.m; sourceTree = "<group>"; };
+		DDC427211375D1440036F196 /* FileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FileViewController.xib; sourceTree = "<group>"; };
+		DDC427251375D4380036F196 /* FileList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FileList.plist; sourceTree = "<group>"; };
+		DDC42746137700470036F196 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		DDC4274E137745200036F196 /* manhattan_corp.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = manhattan_corp.pdf; sourceTree = "<group>"; };
 		DDE448671364B353009A8A85 /* Event Locations-Sales.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Event Locations-Sales.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE4486B1364B353009A8A85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DDE4486D1364B353009A8A85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -73,6 +123,24 @@
 		DDE448CC1364ECDE009A8A85 /* ManDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManDetailViewController.h; sourceTree = "<group>"; };
 		DDE448CD1364ECDE009A8A85 /* ManDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManDetailViewController.m; sourceTree = "<group>"; };
 		DDE448CE1364ECDE009A8A85 /* ManDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ManDetailViewController.xib; sourceTree = "<group>"; };
+		DDE448DE1367A67F009A8A85 /* Functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Functions.h; sourceTree = "<group>"; };
+		DDE448DF1367A67F009A8A85 /* Functions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Functions.m; sourceTree = "<group>"; };
+		DDE448FD136E5BA5009A8A85 /* iphone_pr.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = iphone_pr.pdf; sourceTree = "<group>"; };
+		DDE4491F136E5CE4009A8A85 /* BronxDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BronxDetailViewController.h; sourceTree = "<group>"; };
+		DDE44920136E5CE4009A8A85 /* BronxDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BronxDetailViewController.m; sourceTree = "<group>"; };
+		DDE44921136E5CE4009A8A85 /* BronxDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BronxDetailViewController.xib; sourceTree = "<group>"; };
+		DDE44924136E5CF4009A8A85 /* BrooklynDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrooklynDetailViewController.h; sourceTree = "<group>"; };
+		DDE44925136E5CF4009A8A85 /* BrooklynDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrooklynDetailViewController.m; sourceTree = "<group>"; };
+		DDE44926136E5CF4009A8A85 /* BrooklynDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BrooklynDetailViewController.xib; sourceTree = "<group>"; };
+		DDE44929136E5D04009A8A85 /* SIDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIDetailViewController.h; sourceTree = "<group>"; };
+		DDE4492A136E5D04009A8A85 /* SIDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIDetailViewController.m; sourceTree = "<group>"; };
+		DDE4492B136E5D04009A8A85 /* SIDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SIDetailViewController.xib; sourceTree = "<group>"; };
+		DDE4492E136E5D11009A8A85 /* QueensDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueensDetailViewController.h; sourceTree = "<group>"; };
+		DDE4492F136E5D11009A8A85 /* QueensDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueensDetailViewController.m; sourceTree = "<group>"; };
+		DDE44930136E5D11009A8A85 /* QueensDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QueensDetailViewController.xib; sourceTree = "<group>"; };
+		DDE44934136F9F66009A8A85 /* BorosNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorosNavigationViewController.h; sourceTree = "<group>"; };
+		DDE44935136F9F68009A8A85 /* BorosNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorosNavigationViewController.m; sourceTree = "<group>"; };
+		DDE44936136F9F69009A8A85 /* BorosNavigationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BorosNavigationViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDC42747137700470036F196 /* MessageUI.framework in Frameworks */,
 				DDE4486C1364B353009A8A85 /* UIKit.framework in Frameworks */,
 				DDE4486E1364B353009A8A85 /* Foundation.framework in Frameworks */,
 				DDE448701364B353009A8A85 /* CoreGraphics.framework in Frameworks */,
@@ -89,11 +158,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD25AC5813A05F7800A22613 /* IFileViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = IFileViewController;
+			sourceTree = "<group>";
+		};
+		DD78D42D1385F93A0028ADC2 /* EventLocations.us */ = {
+			isa = PBXGroup;
+			children = (
+				DD78D42F1385F95B0028ADC2 /* EventLocationsViewController.h */,
+				DD78D4301385F95B0028ADC2 /* EventLocationsViewController.m */,
+				DD78D4311385F95B0028ADC2 /* EventLocationsViewController.xib */,
+			);
+			name = EventLocations.us;
+			sourceTree = "<group>";
+		};
 		DDE4485C1364B353009A8A85 = {
 			isa = PBXGroup;
 			children = (
-				DDE448711364B353009A8A85 /* Event Locations-Sales */,
 				DDE4486A1364B353009A8A85 /* Frameworks */,
+				DDE448711364B353009A8A85 /* Event Locations-Sales */,
 				DDE448681364B353009A8A85 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -109,6 +195,7 @@
 		DDE4486A1364B353009A8A85 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DDC42746137700470036F196 /* MessageUI.framework */,
 				DDE4486B1364B353009A8A85 /* UIKit.framework */,
 				DDE4486D1364B353009A8A85 /* Foundation.framework */,
 				DDE4486F1364B353009A8A85 /* CoreGraphics.framework */,
@@ -119,15 +206,13 @@
 		DDE448711364B353009A8A85 /* Event Locations-Sales */ = {
 			isa = PBXGroup;
 			children = (
-				DDE448CB1364ECB9009A8A85 /* ManDetailViewConteoller */,
-				DDE448BB1364EA35009A8A85 /* NJDetailViewController */,
-				DDE448BA1364EA20009A8A85 /* HMDetailViewController */,
-				DDE448B91364EA13009A8A85 /* LIDetailViewController */,
-				DDE448B31364C7AA009A8A85 /* NYS DetailViewController */,
+				DDE449451370E6BA009A8A85 /* MediaKit */,
+				DDE449461370E6D7009A8A85 /* Counties */,
 				DDE4487A1364B353009A8A85 /* Event_Locations_SalesAppDelegate.h */,
 				DDE4487B1364B353009A8A85 /* Event_Locations_SalesAppDelegate.m */,
 				DDE4487D1364B353009A8A85 /* MainWindow.xib */,
-				DDE448961364BEDB009A8A85 /* Boros DetailViewController */,
+				DDE448FB136E5AD0009A8A85 /* Media Kit Files */,
+				DDE448D71367A5FA009A8A85 /* Common */,
 				DDE448951364B8A4009A8A85 /* RootViewController */,
 				DDE448941364B881009A8A85 /* DetailViewController */,
 				DDE448721364B353009A8A85 /* Supporting Files */,
@@ -170,9 +255,14 @@
 		DDE448961364BEDB009A8A85 /* Boros DetailViewController */ = {
 			isa = PBXGroup;
 			children = (
-				DDE448971364BF00009A8A85 /* BorosDetailViewController.h */,
-				DDE448981364BF00009A8A85 /* BorosDetailViewController.m */,
-				DDE448991364BF00009A8A85 /* BorosDetailViewController.xib */,
+				DDE44933136F9F38009A8A85 /* BorosDetailViewController */,
+				DDE4491E136E5BFD009A8A85 /* QueensDetailViewController */,
+				DDE4491D136E5BF6009A8A85 /* SIDetailViewController */,
+				DDE4491C136E5BEA009A8A85 /* BrooklynDetailViewController */,
+				DDE4491B136E5BD9009A8A85 /* BronxDetailViewController */,
+				DDE44934136F9F66009A8A85 /* BorosNavigationViewController.h */,
+				DDE44935136F9F68009A8A85 /* BorosNavigationViewController.m */,
+				DDE44936136F9F69009A8A85 /* BorosNavigationViewController.xib */,
 			);
 			name = "Boros DetailViewController";
 			sourceTree = "<group>";
@@ -237,6 +327,119 @@
 			name = ManDetailViewConteoller;
 			sourceTree = "<group>";
 		};
+		DDE448D71367A5FA009A8A85 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DDE448DE1367A67F009A8A85 /* Functions.h */,
+				DDE448DF1367A67F009A8A85 /* Functions.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		DDE448FB136E5AD0009A8A85 /* Media Kit Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDBC1A3713884CAE0043FB11 /* Icon.jpg */,
+				DDBC1A2613882EDC0043FB11 /* manhattan.pdf */,
+				DDBC1A15138613D00043FB11 /* boros.pdf */,
+				DDBC1A16138613D00043FB11 /* longisland.pdf */,
+				DDBC1A17138613D00043FB11 /* newjersey.pdf */,
+				DDBC1A18138613D00043FB11 /* nys.pdf */,
+				DD4CB58713808EE10016131E /* brides_email.pdf */,
+				DD4CB58813808EE10016131E /* google_ranking.pdf */,
+				DD4CB58913808EE10016131E /* media_kit.pdf */,
+				DD4CB58A13808EE10016131E /* nytimes_review.pdf */,
+				DD4CB584137F1E530016131E /* EventLocations-Cover.jpg */,
+				DDC4274E137745200036F196 /* manhattan_corp.pdf */,
+				DDE448FD136E5BA5009A8A85 /* iphone_pr.pdf */,
+			);
+			name = "Media Kit Files";
+			sourceTree = "<group>";
+		};
+		DDE4491B136E5BD9009A8A85 /* BronxDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DDE4491F136E5CE4009A8A85 /* BronxDetailViewController.h */,
+				DDE44920136E5CE4009A8A85 /* BronxDetailViewController.m */,
+				DDE44921136E5CE4009A8A85 /* BronxDetailViewController.xib */,
+			);
+			name = BronxDetailViewController;
+			sourceTree = "<group>";
+		};
+		DDE4491C136E5BEA009A8A85 /* BrooklynDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DDE44924136E5CF4009A8A85 /* BrooklynDetailViewController.h */,
+				DDE44925136E5CF4009A8A85 /* BrooklynDetailViewController.m */,
+				DDE44926136E5CF4009A8A85 /* BrooklynDetailViewController.xib */,
+			);
+			name = BrooklynDetailViewController;
+			sourceTree = "<group>";
+		};
+		DDE4491D136E5BF6009A8A85 /* SIDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DDE44929136E5D04009A8A85 /* SIDetailViewController.h */,
+				DDE4492A136E5D04009A8A85 /* SIDetailViewController.m */,
+				DDE4492B136E5D04009A8A85 /* SIDetailViewController.xib */,
+			);
+			name = SIDetailViewController;
+			sourceTree = "<group>";
+		};
+		DDE4491E136E5BFD009A8A85 /* QueensDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DDE4492E136E5D11009A8A85 /* QueensDetailViewController.h */,
+				DDE4492F136E5D11009A8A85 /* QueensDetailViewController.m */,
+				DDE44930136E5D11009A8A85 /* QueensDetailViewController.xib */,
+			);
+			name = QueensDetailViewController;
+			sourceTree = "<group>";
+		};
+		DDE44933136F9F38009A8A85 /* BorosDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DDE448971364BF00009A8A85 /* BorosDetailViewController.h */,
+				DDE448981364BF00009A8A85 /* BorosDetailViewController.m */,
+				DDE448991364BF00009A8A85 /* BorosDetailViewController.xib */,
+			);
+			name = BorosDetailViewController;
+			sourceTree = "<group>";
+		};
+		DDE449451370E6BA009A8A85 /* MediaKit */ = {
+			isa = PBXGroup;
+			children = (
+				DD25AC5813A05F7800A22613 /* IFileViewController */,
+				DDE449571375D05D009A8A85 /* FileViewController */,
+			);
+			name = MediaKit;
+			sourceTree = "<group>";
+		};
+		DDE449461370E6D7009A8A85 /* Counties */ = {
+			isa = PBXGroup;
+			children = (
+				DD78D42D1385F93A0028ADC2 /* EventLocations.us */,
+				DDE448CB1364ECB9009A8A85 /* ManDetailViewConteoller */,
+				DDE448BB1364EA35009A8A85 /* NJDetailViewController */,
+				DDE448BA1364EA20009A8A85 /* HMDetailViewController */,
+				DDE448B91364EA13009A8A85 /* LIDetailViewController */,
+				DDE448B31364C7AA009A8A85 /* NYS DetailViewController */,
+				DDE448961364BEDB009A8A85 /* Boros DetailViewController */,
+			);
+			name = Counties;
+			sourceTree = "<group>";
+		};
+		DDE449571375D05D009A8A85 /* FileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DDC427251375D4380036F196 /* FileList.plist */,
+				DDC4271F1375D1440036F196 /* FileViewController.h */,
+				DDC427201375D1440036F196 /* FileViewController.m */,
+				DDC427211375D1440036F196 /* FileViewController.xib */,
+			);
+			name = FileViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -295,6 +498,27 @@
 				DDE448C51364EA5E009A8A85 /* HMDetailViewController.xib in Resources */,
 				DDE448CA1364EA6F009A8A85 /* NJDetailViewController.xib in Resources */,
 				DDE448D01364ECDE009A8A85 /* ManDetailViewController.xib in Resources */,
+				DDE4490C136E5BA5009A8A85 /* iphone_pr.pdf in Resources */,
+				DDE44923136E5CE4009A8A85 /* BronxDetailViewController.xib in Resources */,
+				DDE44928136E5CF4009A8A85 /* BrooklynDetailViewController.xib in Resources */,
+				DDE4492D136E5D04009A8A85 /* SIDetailViewController.xib in Resources */,
+				DDE44932136E5D11009A8A85 /* QueensDetailViewController.xib in Resources */,
+				DDE44938136F9F6B009A8A85 /* BorosNavigationViewController.xib in Resources */,
+				DDC427231375D1440036F196 /* FileViewController.xib in Resources */,
+				DDC427261375D4380036F196 /* FileList.plist in Resources */,
+				DDC4274F137745200036F196 /* manhattan_corp.pdf in Resources */,
+				DD4CB585137F1E530016131E /* EventLocations-Cover.jpg in Resources */,
+				DD4CB58B13808EE10016131E /* brides_email.pdf in Resources */,
+				DD4CB58C13808EE10016131E /* google_ranking.pdf in Resources */,
+				DD4CB58D13808EE10016131E /* media_kit.pdf in Resources */,
+				DD4CB58E13808EE10016131E /* nytimes_review.pdf in Resources */,
+				DD78D4331385F95B0028ADC2 /* EventLocationsViewController.xib in Resources */,
+				DDBC1A19138613D00043FB11 /* boros.pdf in Resources */,
+				DDBC1A1A138613D00043FB11 /* longisland.pdf in Resources */,
+				DDBC1A1B138613D00043FB11 /* newjersey.pdf in Resources */,
+				DDBC1A1C138613D00043FB11 /* nys.pdf in Resources */,
+				DDBC1A2713882EDC0043FB11 /* manhattan.pdf in Resources */,
+				DDBC1A3813884CAE0043FB11 /* Icon.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +540,14 @@
 				DDE448C41364EA5E009A8A85 /* HMDetailViewController.m in Sources */,
 				DDE448C91364EA6F009A8A85 /* NJDetailViewController.m in Sources */,
 				DDE448CF1364ECDE009A8A85 /* ManDetailViewController.m in Sources */,
+				DDE448E01367A67F009A8A85 /* Functions.m in Sources */,
+				DDE44922136E5CE4009A8A85 /* BronxDetailViewController.m in Sources */,
+				DDE44927136E5CF4009A8A85 /* BrooklynDetailViewController.m in Sources */,
+				DDE4492C136E5D04009A8A85 /* SIDetailViewController.m in Sources */,
+				DDE44931136E5D11009A8A85 /* QueensDetailViewController.m in Sources */,
+				DDE44937136F9F6B009A8A85 /* BorosNavigationViewController.m in Sources */,
+				DDC427221375D1440036F196 /* FileViewController.m in Sources */,
+				DD78D4321385F95B0028ADC2 /* EventLocationsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +577,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Joel SCHER (9C8R6QPXW3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Joel SCHER (9C8R6QPXW3)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
@@ -353,7 +586,9 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PROVISIONING_PROFILE = "4A60C932-279E-4DDA-AD32-77E13404D742";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4A60C932-279E-4DDA-AD32-77E13404D742";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -363,13 +598,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Joel SCHER (9C8R6QPXW3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Joel SCHER (9C8R6QPXW3)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "4A60C932-279E-4DDA-AD32-77E13404D742";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4A60C932-279E-4DDA-AD32-77E13404D742";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -379,12 +617,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Joel SCHER (9C8R6QPXW3)";
+				COPY_PHASE_STRIP = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Event Locations-Sales/Event Locations-Sales-Prefix.pch";
 				INFOPLIST_FILE = "Event Locations-Sales/Event Locations-Sales-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4A60C932-279E-4DDA-AD32-77E13404D742";
+				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -413,7 +654,7 @@
 				DDE448811364B353009A8A85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		DDE448821364B353009A8A85 /* Build configuration list for PBXNativeTarget "Event Locations-Sales" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +663,7 @@
 				DDE448841364B353009A8A85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

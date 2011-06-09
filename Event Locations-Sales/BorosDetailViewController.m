@@ -7,9 +7,18 @@
 //
 
 #import "BorosDetailViewController.h"
+#import "QueensDetailViewController.h"
+#import "BronxDetailViewController.h"
+#import "BrooklynDetailViewController.h"
+#import "SIDetailViewController.h"
+#import "Functions.h"
 
 
 @implementation BorosDetailViewController
+@synthesize queensButton;
+@synthesize bronxButton;
+@synthesize siButton;
+@synthesize brooklynButton;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -19,26 +28,51 @@
     }
     return self;
 }
-
-- (void)dealloc
+- (void)viewDidLoad
 {
-    [super dealloc];
+    [super viewDidLoad];
+    self.title = @"Boros";
+    // Do any additional setup after loading the view from its nib.
 }
+
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    // Return YES for supported orientations
+	return YES;
+}
+
+
+- (IBAction)queensClicked:(id)sender{
+    QueensDetailViewController* detailViewController = [[QueensDetailViewController alloc] initWithNibName:@"QueensDetailViewController" bundle:nil];
+    [self.navigationController pushViewController:detailViewController animated:YES];
+    [detailViewController release];
+}
+
+- (IBAction)bronxClicked:(id)sender{
+    BronxDetailViewController* detailViewController = [[BronxDetailViewController alloc] initWithNibName:@"BronxDetailViewController" bundle:nil];
+    [self.navigationController pushViewController:detailViewController animated:YES];
+    [detailViewController release];
+}
+
+- (IBAction)siClicked:(id)sender{
+    SIDetailViewController* detailViewController = [[SIDetailViewController alloc] initWithNibName:@"SIDetailViewController" bundle:nil];
+    [self.navigationController pushViewController:detailViewController animated:YES];
+    [detailViewController release];
+}
+
+- (IBAction)brooklynClicked:(id)sender{
+    BrooklynDetailViewController* detailViewController = [[BrooklynDetailViewController alloc] initWithNibName:@"BrooklynDetailViewController" bundle:nil];
+    [self.navigationController pushViewController:detailViewController animated:YES];
+    [detailViewController release];
+}
+
 
 - (void)didReceiveMemoryWarning
 {
     // Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
-    
     // Release any cached data, images, etc that aren't in use.
-}
-
-#pragma mark - View lifecycle
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)viewDidUnload
@@ -48,17 +82,15 @@
     // e.g. self.myOutlet = nil;
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+- (void)dealloc
 {
-    // Return YES for supported orientations
-	return YES;
+    [super dealloc];
+    [queensButton release];
+    [bronxButton release];
+    [siButton release];
+    [brooklynButton release];
 }
 
-- (void)showRootPopoverButtonItem:(UIBarButtonItem *)barButtonItem {
-}
 
-
-- (void)invalidateRootPopoverButtonItem:(UIBarButtonItem *)barButtonItem {
-}
 
 @end

@@ -1,15 +1,16 @@
 //
-//  SDetailViewController.m
+//  BorosNavigationViewController.m
 //  Event Locations-Sales
 //
-//  Created by Ujwal Trivedi on 4/24/11.
+//  Created by Ujwal Trivedi on 5/2/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "SDetailViewController.h"
+#import "BorosNavigationViewController.h"
+#import "BorosDetailViewController.h"
 
 
-@implementation SDetailViewController
+@implementation BorosNavigationViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -23,6 +24,7 @@
 - (void)dealloc
 {
     [super dealloc];
+    [navigationController release];
 }
 
 - (void)didReceiveMemoryWarning
@@ -38,6 +40,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    navigationController=[[UINavigationController alloc] init];
+    //navigationController.navigationBar.barStyle = UIBarStyleBlackTranslucent;
+	
+    
+	BorosDetailViewController *firstController=[[BorosDetailViewController alloc] initWithNibName:@"BorosDetailViewController" bundle:nil];
+	
+	
+
+    
+    [navigationController pushViewController:firstController animated:NO];
+    [firstController release];
+	[self.view addSubview:navigationController.view];
+
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -51,8 +67,13 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
-    return UIInterfaceOrientationIsLandscape(interfaceOrientation);
-	//return YES;
+	return YES;
+}
+- (void)showRootPopoverButtonItem:(UIBarButtonItem *)barButtonItem {
+}
+
+
+- (void)invalidateRootPopoverButtonItem:(UIBarButtonItem *)barButtonItem {
 }
 
 

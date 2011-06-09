@@ -8,6 +8,7 @@
 
 #import "RootViewController.h"
 #import "SubRootViewController.h"
+#import "SDetailViewController.h"
 
 
 @implementation RootViewController
@@ -42,6 +43,8 @@
     [super viewDidLoad];
     self.contentSizeForViewInPopover = CGSizeMake(310.0, self.tableView.rowHeight*2.0);
 
+    
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
@@ -49,8 +52,8 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
-- (void)viewDidUnload
-{
+- (void)viewDidUnload{
+    
     [super viewDidUnload];
     self.splitViewController = nil;
     // Release any retained subviews of the main view.
@@ -65,6 +68,11 @@
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
+    
+    SDetailViewController *detailViewController = [[SDetailViewController alloc] initWithNibName:@"SDetailViewController" bundle:nil];
+    NSArray *viewControllers = [[NSArray alloc] initWithObjects:self.navigationController, detailViewController, nil];
+    splitViewController.viewControllers = viewControllers;
+    [viewControllers release];
 }
 
 - (void)viewWillDisappear:(BOOL)animated
@@ -106,7 +114,7 @@
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
     
-    cell.textLabel.text = @"Row";    
+    cell.textLabel.text = @"Event Locations-Sales";    
     return cell;
 }
 
@@ -158,6 +166,7 @@
     
      SubRootViewController *detailViewController = [[SubRootViewController alloc] initWithNibName:@"SubRootViewController" bundle:nil];
      detailViewController.splitViewController = self.splitViewController;
+     self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStylePlain target:nil action:nil];
      [self.navigationController pushViewController:detailViewController animated:YES];
      [detailViewController release];
      
