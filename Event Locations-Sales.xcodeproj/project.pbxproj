@@ -62,6 +62,9 @@
 		DDE44932136E5D11009A8A85 /* QueensDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDE44930136E5D11009A8A85 /* QueensDetailViewController.xib */; };
 		DDE44937136F9F6B009A8A85 /* BorosNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE44935136F9F68009A8A85 /* BorosNavigationViewController.m */; };
 		DDE44938136F9F6B009A8A85 /* BorosNavigationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDE44936136F9F69009A8A85 /* BorosNavigationViewController.xib */; };
+		DDE541C113A064D000FD6D88 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE541C013A064D000FD6D88 /* CFNetwork.framework */; };
+		DDE541C613A0686700FD6D88 /* IFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE541C413A0686700FD6D88 /* IFileViewController.m */; };
+		DDE541C713A0686700FD6D88 /* IFileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDE541C513A0686700FD6D88 /* IFileViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -141,6 +144,10 @@
 		DDE44934136F9F66009A8A85 /* BorosNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorosNavigationViewController.h; sourceTree = "<group>"; };
 		DDE44935136F9F68009A8A85 /* BorosNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorosNavigationViewController.m; sourceTree = "<group>"; };
 		DDE44936136F9F69009A8A85 /* BorosNavigationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BorosNavigationViewController.xib; sourceTree = "<group>"; };
+		DDE541C013A064D000FD6D88 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		DDE541C313A0686700FD6D88 /* IFileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFileViewController.h; sourceTree = "<group>"; };
+		DDE541C413A0686700FD6D88 /* IFileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFileViewController.m; sourceTree = "<group>"; };
+		DDE541C513A0686700FD6D88 /* IFileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IFileViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +155,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDE541C113A064D000FD6D88 /* CFNetwork.framework in Frameworks */,
 				DDC42747137700470036F196 /* MessageUI.framework in Frameworks */,
 				DDE4486C1364B353009A8A85 /* UIKit.framework in Frameworks */,
 				DDE4486E1364B353009A8A85 /* Foundation.framework in Frameworks */,
@@ -161,6 +169,9 @@
 		DD25AC5813A05F7800A22613 /* IFileViewController */ = {
 			isa = PBXGroup;
 			children = (
+				DDE541C313A0686700FD6D88 /* IFileViewController.h */,
+				DDE541C413A0686700FD6D88 /* IFileViewController.m */,
+				DDE541C513A0686700FD6D88 /* IFileViewController.xib */,
 			);
 			name = IFileViewController;
 			sourceTree = "<group>";
@@ -178,6 +189,7 @@
 		DDE4485C1364B353009A8A85 = {
 			isa = PBXGroup;
 			children = (
+				DDE541C013A064D000FD6D88 /* CFNetwork.framework */,
 				DDE4486A1364B353009A8A85 /* Frameworks */,
 				DDE448711364B353009A8A85 /* Event Locations-Sales */,
 				DDE448681364B353009A8A85 /* Products */,
@@ -519,6 +531,7 @@
 				DDBC1A1C138613D00043FB11 /* nys.pdf in Resources */,
 				DDBC1A2713882EDC0043FB11 /* manhattan.pdf in Resources */,
 				DDBC1A3813884CAE0043FB11 /* Icon.jpg in Resources */,
+				DDE541C713A0686700FD6D88 /* IFileViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,6 +561,7 @@
 				DDE44937136F9F6B009A8A85 /* BorosNavigationViewController.m in Sources */,
 				DDC427221375D1440036F196 /* FileViewController.m in Sources */,
 				DD78D4321385F95B0028ADC2 /* EventLocationsViewController.m in Sources */,
+				DDE541C613A0686700FD6D88 /* IFileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,8 +601,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
-				PROVISIONING_PROFILE = "4A60C932-279E-4DDA-AD32-77E13404D742";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4A60C932-279E-4DDA-AD32-77E13404D742";
+				PROVISIONING_PROFILE = "AD4141DF-F870-4025-8D34-1EAADD596820";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AD4141DF-F870-4025-8D34-1EAADD596820";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -606,8 +620,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "4A60C932-279E-4DDA-AD32-77E13404D742";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4A60C932-279E-4DDA-AD32-77E13404D742";
+				PROVISIONING_PROFILE = "AD4141DF-F870-4025-8D34-1EAADD596820";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AD4141DF-F870-4025-8D34-1EAADD596820";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -624,7 +638,7 @@
 				GCC_PREFIX_HEADER = "Event Locations-Sales/Event Locations-Sales-Prefix.pch";
 				INFOPLIST_FILE = "Event Locations-Sales/Event Locations-Sales-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "4A60C932-279E-4DDA-AD32-77E13404D742";
+				PROVISIONING_PROFILE = "AD4141DF-F870-4025-8D34-1EAADD596820";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -634,11 +648,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Joel SCHER (9C8R6QPXW3)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Event Locations-Sales/Event Locations-Sales-Prefix.pch";
 				INFOPLIST_FILE = "Event Locations-Sales/Event Locations-Sales-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "AD4141DF-F870-4025-8D34-1EAADD596820";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};

@@ -19,7 +19,7 @@
 - (void)invalidateRootPopoverButtonItem:(UIBarButtonItem *)barButtonItem;
 @end
 
-@interface SubRootViewController : UITableViewController {
+@interface SubRootViewController : UITableViewController <NSStreamDelegate>{
  
     UISplitViewController *splitViewController;
     UISegmentedControl *segmentControl;
@@ -31,7 +31,25 @@
     id viewController;
     UIButton *emailSelectedFiles;
     NSMutableArray *filesToSend;
+    
+    
+    
+    
+    NSInputStream *             _networkStream;
+    NSMutableData *             _listData;
+    NSMutableArray *            _listEntries;           
+    NSString *                  _status;
 }
+
+@property (nonatomic, readonly) BOOL              isReceiving;
+@property (nonatomic, retain)   NSInputStream *   networkStream;
+@property (nonatomic, retain)   NSMutableData *   listData;
+@property (nonatomic, retain)   NSMutableArray *  listEntries;
+
+- (void)_updateStatus:(NSString *)statusString;
+- (void)_startReceive;
+
+
 @property (nonatomic, assign) UIBarButtonItem *selectFiles;
 @property (nonatomic, assign) UISplitViewController *splitViewController;
 @property (nonatomic, assign) IBOutlet UISegmentedControl *segmentControl;
@@ -41,4 +59,7 @@
 - (void)removeAllSelection;
 - (void)sendFilesEmail;
 - (NSString *) getFileName:(NSInteger)row;
+
+- (NSString *)makeFancyFileName:(NSString *) fileName;
+- (NSString *)makeRealFileName:(NSString *) fileName;
 @end

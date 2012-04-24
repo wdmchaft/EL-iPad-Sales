@@ -67,9 +67,9 @@
     NSURL *targetURL;
     
     if(currentMonth){
-        targetURL =[NSURL URLWithString:[NSString stringWithFormat:@"http://locationsmagazine.com/Rank/RANKMan%@.html", [Functions getMonthYear:self]]];
+        targetURL =[NSURL URLWithString:[NSString stringWithFormat:@"http://locationsmagazine.com/Rank/RANKBoros%@.html", [Functions getMonthYear:self]]];
     }else{
-        targetURL =[NSURL URLWithString:[NSString stringWithFormat:@"http://locationsmagazine.com/Rank/RANKMan%@.html", [Functions getPreviousMonthCurrentYear:self]]];
+        targetURL =[NSURL URLWithString:[NSString stringWithFormat:@"http://locationsmagazine.com/Rank/RANKBoros%@.html", [Functions getPreviousMonthCurrentYear:self]]];
     }
     
     NSURLRequest *request = [NSURLRequest requestWithURL:targetURL];

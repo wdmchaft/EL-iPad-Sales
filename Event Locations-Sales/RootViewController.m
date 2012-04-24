@@ -43,8 +43,7 @@
     [super viewDidLoad];
     self.contentSizeForViewInPopover = CGSizeMake(310.0, self.tableView.rowHeight*2.0);
 
-    
-    
+    [splitViewController setValue:[NSNumber numberWithFloat:290.0] forKey:@"_masterColumnWidth"];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
